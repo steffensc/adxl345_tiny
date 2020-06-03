@@ -3,7 +3,7 @@
 
 The Library is based on the Adafruit's Library: https://github.com/adafruit/Adafruit_ADXL345/
 which unfortunately did not contain any methods for Interrupt or Low Power/ Sleep Mode configuration. I extended the Library with these functions. 
-Furthermore I removed the dependency of the Unified Sensor Library objects (you directly get returned the raw 16-bit Integer values by the methods for each exis) and added a method `getRawAccelDataBurst()` for getting data of all three axis as fast as possible. Since I removed the Unified Sensor Library "bloat" and implemendet some more fast methods and placed everything in a single library, I decided to call it tiny even if there is more functionality ;)
+Furthermore I removed the dependency of the Unified Sensor Library objects (you directly get returned the raw 16-bit Integer values by the methods for each axis) and added a method `getRawAccelDataBurst()` for getting data of all three axis as fast as possible. Since I removed the Unified Sensor Library "bloat" and implemendet some more fast methods and placed everything in a single library, I decided to call it tiny even if there is more functionality ;)
 
 __NOTE__: This Library is in very early development stage so be a little forgiving. But I still wanted to share it at the current stage already, since I couldn't find any other ADXL345 Library out there which fitted my needs so it may be helpful for you.
 
